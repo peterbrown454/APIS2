@@ -13,8 +13,7 @@ async function getStatus(e) {
     const data = await response.json();
 
     if (response.ok) {
-        console.log(data.response);
-    } else {
-        console.log("error");
+        console.log(data);
     }
+
 }
